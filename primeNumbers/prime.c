@@ -1,4 +1,4 @@
-//This code relies on the header file options.h and the c file options.c to accomplish the following task:
+//This code relies on the header file options.h and the c file options.c to accomplish the following task given to me:
 
 /*
 In the base system, when you execute ./prime <OUTPUT_FILE>, 
@@ -13,6 +13,10 @@ this option, when included, should print all the prime numbers that are containe
 Numbers in File should be positive integers, one per line (no initial spacing). 
 For example, if you construct a file named testing in the same directory as your C file system,
 executing ./prime -i testing <OUTPUT_FILE> should print all the prime numbers in testing in <OUTPUT_FILE>, one per line (no initial spacing).
+
+For this assignment, you should construct two new source files (prime.c and options.c) and a header file (options.h). 
+Your options.c file MUST use the getopt() function described in the attached link, 
+which is frequently used in various C programs.
 */
 
 #include <stdio.h>
